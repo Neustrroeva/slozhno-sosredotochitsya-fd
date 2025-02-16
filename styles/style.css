@@ -143,8 +143,8 @@
 .main {
   display: grid;
   gap: 1.9rem;
-  margin-block-start: 2rem;
-  padding: 0.55rem;
+  margin-block-start: 8%;
+  padding: 2.5%;
 }
 
 .content {
@@ -152,12 +152,13 @@
 }
 
 .main__title {
-  margin-block-end: 2.1rem;
+  margin-block-end: 6%;
   color: var(--menu-text);
+  max-width: 97%;
 }
 
 .main__subtitle {
-  margin-block-end: 0.9rem;
+  margin-block-end: 1rem;
 }
 
 .main__content {
@@ -165,6 +166,10 @@
   color: var(--main-text-color);
   margin-block-end: 1.11rem;
   margin-block-start: 0.55rem;
+}
+
+p.main__content {
+  width: 97%;
 }
 
 .list__title {
@@ -243,14 +248,14 @@
 
   .content__2-columns {
     display: grid;
-    grid-template-columns: 13.11rem auto;
+    grid-template-columns: 30% auto;
     grid-template-areas: "header second-column";
-    gap: 3.2rem;
+    gap: 5.5%;
     margin-block-end: 2rem;
   }
 
   .content__3-columns {
-    margin-block-end: 0.66rem;
+    margin-block-end: 4.5%;
   }
 
   .main__subtitle {
@@ -261,12 +266,17 @@
     grid-area: second-column;
   }
 
-  .main__title {
-    width: 13.11rem;
+  .main {
+    margin-block-start: 5%;
   }
 
-  .list__title {
-    margin-block-end: 1.5rem;
+  .main__title {
+    width: 13.11rem;
+    margin-block-end: 2%;
+  }
+
+  p.main__content {
+    width: 100%;
   }
 
   .gallery__content {
@@ -276,7 +286,7 @@
   .gallery {
     gap: 1.11rem;
     grid-template-columns: repeat(3, 1fr);
-    margin-block-start: 1.4rem;
+    margin-block-start: 4%;
   }
 
   .images:nth-child(1) {
@@ -323,12 +333,20 @@
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
-    padding-block-start: 0.8rem;
+    padding-block-start: 2%;
+    padding-inline-start: 0;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
+  }
+
+  .header__description {
+    inline-size: 49%;
+    block-size: 28%;
+    margin-block-end: 8%;
+    margin-inline-end: 0.3%;
   }
 
   .page {
@@ -355,14 +373,15 @@
   }
 
   .main {
-    gap: 2.5rem;
-    margin-block-start: 3.2rem;
-    padding-inline-start: 1.2rem;
+    margin-block-start: 4.5%;
+    padding: 1.5%;
+    padding-inline-end: 0;
   }
 
   .content__2-columns {
-    grid-template-columns: 17.5rem auto;
-    gap: 3.2rem;
+    grid-template-columns: 31% auto;
+    gap: 3.9%;
+    margin-block-end: 2.2rem;
   }
 
   .content__3-columns {
@@ -370,10 +389,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 1.11rem;
+    margin-block-end: 3.4%;
   }
 
   .main__title {
     width: 18.5rem;
     margin-block-end: 1.11rem;
+  }
+
+  .gallery {
+    margin-block-start: 2%;
   }
 }
