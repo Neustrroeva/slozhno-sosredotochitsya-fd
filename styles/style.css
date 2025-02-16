@@ -137,7 +137,8 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--header-description-color);
-  line-height: 1.3rem;
+  line-height: 1.4rem;
+  padding: 1px;
 }
 
 .main {
@@ -158,7 +159,7 @@
 }
 
 .main__subtitle {
-  margin-block-end: 1rem;
+  margin-block-end: 0.8rem;
 }
 
 .main__content {
@@ -169,7 +170,8 @@
 }
 
 p.main__content {
-  width: 97%;
+  width: 99%;
+  line-height: 129%;
 }
 
 .list__title {
@@ -236,7 +238,6 @@ p.main__content {
 
   .header__description {
     inline-size: 48%;
-    block-size: 34%;
     margin-block-end: 18%;
     margin-inline-end: 2%;
   }
@@ -272,7 +273,7 @@ p.main__content {
 
   .main__title {
     width: 13.11rem;
-    margin-block-end: 2%;
+    margin-block-end: 3%;
   }
 
   p.main__content {
