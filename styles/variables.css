@@ -8,8 +8,9 @@
   --header-description-color: #000028;
   --menu-text: #ff0070;
   --main-text-color: #f1b2ce;
+  --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
-  --font-family: "IBM Plex mono";
+  --font-family: "IBM Plex mono", Monospace, sans-serif;
   --font-weight-bold: 700;
   --font-weight-normal: 400;
   --main-font-size: 18px;
